@@ -13,12 +13,14 @@
     "debug": "^2.6.8",
     "jsonpath": "^0.2.11",
     "loopback-connector": "^4.2.0",
+    "moment": "^2.18.1",
     "node-rest-client": "^3.1.0",
-    "odata": "^0.3.0",
     "odata-query": "^3.3.1",
-    "request": "^2.81.0",
     "strong-globalize": "^2.8.3",
     "underscore": "^1.8.3",
     "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
   }
 }

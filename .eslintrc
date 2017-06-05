@@ -1,0 +1,69 @@
+{
+    "globals":
+    {
+        "Ti": false,
+        "Titanium": false,
+        "describe": false,
+        "it": false,
+        "before": false,
+        "beforeEach": false,
+        "after": false,
+        "afterEach": false,
+        "should": false,
+        "OS_IOS": false,
+        "OS_ANDROID": false,
+        "ENV_DEV": false,
+        "ENV_TEST": false,
+        "ENV_PRODUCTION": false,
+        "DIST_ADHOC": false,
+        "DIST_STORE": false,
+        "L": false,
+        "alert": false,
+        "console": false,
+        "WPATH": false,
+        "APP": false,
+        "Alloy": false,
+        "$": false,
+        "Backbone": false,
+		"Widget": false,
+        "_": false
+    },
+    "rules":
+    {
+        "spaced-comment": "off",
+        "camelcase": "off",
+        "one-var": "off",
+        "space-before-blocks": ["error", "always"],
+        "space-before-function-paren": ["error",
+        {
+            "anonymous": "never",
+            "named": "never",
+            "asyncArrow": "ignore"
+        }],
+        "comma-dangle": ["error",
+        {
+            "arrays": "never",
+            "objects": "ignore",
+            "functions": "ignore"
+        }],
+        "eqeqeq": ["off", "always"],
+        "no-alert": "off",
+        "quotes": "off",
+        "indent": ["error", "tab"],
+        "semi": ["error", "always"],
+        "no-unused-vars": ["warn",
+        {
+            "vars": "local",
+            "args": "none",
+            "ignoreRestSiblings": true
+        }],
+		"no-trailing-spaces":"off",
+        "no-tabs": "off",
+        "max-len": ["error",
+        {
+            "code": 256,
+            "tabWidth": 4,
+            "ignoreUrls": true
+        }]
+    }
+}
